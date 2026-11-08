@@ -1,0 +1,5 @@
+{
+    "HEADLESS_MODE": true,
+    "ENABLE_SESSION_1": true,
+    "ENABLE_SESSION_2": false
+}
