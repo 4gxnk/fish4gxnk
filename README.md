@@ -1,4 +1,4 @@
-# 🐟 4GXNK ENGINE V9.2 - Fish Hastle Auto Bot
+# 🐟 Fish Hastle Auto Bot
 
 Automation script (Auto-Clicker, Auto-Cast, Auto-Sell, dll) for Fish Hastle game via Telegram MiniApp. 
 
@@ -130,6 +130,6 @@ Saat script berjalan, Anda bisa mengontrol bot secara real-time melalui terminal
 
 ---
 
-## ⚠️ Troubleshooting & Solusi
+## ⚠️ Troubleshooting
 *   **Akses Ditolak (Nomor Tidak Terdaftar):** Pastikan admin sudah memasukkan nomor Telegram Anda, https://t.me/jcolm.
 *   **Koneksi Telegram Terputus / Minta Nomor Terus:** Hapus file `session.session` dan `session2.session` di folder Anda, lalu jalankan ulang agar script meminta kode OTP baru.
