@@ -4,6 +4,14 @@ Automation script (Auto-Clicker, Auto-Cast, Auto-Sell, dll) for Fish Hastle game
 
 ---
 
+### INSTALL TERMUX & TERMUX X11
+
+## Termux
+https://f-droid.org/repo/com.termux_1022.apk
+
+## Termux X11
+https://github.com/termux/termux-x11/releases/download/nightly/termux-x11-universal-debug.apk
+
 ## 📱 Cara Install & Menjalankan di Termux (Android)
 
 
