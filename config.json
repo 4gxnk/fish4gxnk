@@ -1,5 +1,5 @@
 {
-    "HEADLESS_MODE": true,
+    "HEADLESS_MODE": false,
     "ENABLE_SESSION_1": true,
-    "ENABLE_SESSION_2": false
+    "ENABLE_SESSION_2": true
 }
