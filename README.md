@@ -32,7 +32,7 @@ pkg install proot-distro -y
 # 4. Install Ubuntu di dalam Termux
 proot-distro install ubuntu
 
-# 4. Masuk ke environment Ubuntu
+# 5. Masuk ke environment Ubuntu
 proot-distro login ubuntu
 # atau
 proot-distro login ubuntu --shared-tmp
@@ -49,6 +49,7 @@ apt install git
 ```
 
 ### Langkah 3: Setup Script & Playwright
+
 ```bash
 # 1. Clone repository ini
 git clone https://github.com/4gxnk/4GXNK-ENGINE-V9.2---Fish-Hastle-Auto-Bot
@@ -62,7 +63,9 @@ playwright install chromium
 # 4. Install dependensi sistem yang dibutuhkan Chromium
 playwright install-deps
 ```
+
 ### Langkah Opsional: Menampilkan Visual (termux x11)
+
 ```bash
 # 1. buka sesi termux baru
 
@@ -79,25 +82,26 @@ echo "export MESA_LOADER_DRIVER_OVERRIDE=swrast" >> ~/.bashrc
 pkill -f termux-x11
 ‎pkill -f Xorg
 ‎pkill -f X
-‎```
-
+‎
+```
 
 ### Langkah 4: Menjalankan Script
-Pastikan file script utama kamu (misal: `auto.py`) dan `config.json` sudah ada di dalam folder. 
+Pastikan file script utama kamu (misal: `hadeh.py`) dan `config.json` sudah ada di dalam folder. 
 *(Gunakan `nano config.json` untuk mengubah mode script).*
 
 ```bash
 # Jalankan bot
-python3 auto.py
+python3 hadeh.py
 ```
 > **Catatan:** Untuk pemakaian berikutnya, Anda hanya perlu membuka Termux lalu mengetik:
-> `proot-distro login ubuntu` ➡️ `cd fish4gxnk` ➡️ `python3 auto.py`
+> `proot-distro login ubuntu` ➡️ `cd fish4gxnk` ➡️ `python3 hadeh.py`
 
 ---
 
 ## ⚙️ Konfigurasi (`config.json`)
 
 Script ini membaca pengaturan dari file `config.json` secara otomatis. Jika belum ada, script akan membuatnya di run pertama.
+
 ```json
 {
     "HEADLESS_MODE": true,
@@ -105,6 +109,7 @@ Script ini membaca pengaturan dari file `config.json` secara otomatis. Jika belu
     "ENABLE_SESSION_2": false
 }
 ```
+
 *   `HEADLESS_MODE`: `true` untuk menjalankan tanpa layar GUI ( `true` untuk Termux/VPS agar ringan dan tidak crash).
 *   `ENABLE_SESSION_1` & `2`: Ubah ke `true` atau `false` untuk mengaktifkan/menonaktifkan akun atas/bawah.
 
