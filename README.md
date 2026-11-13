@@ -71,9 +71,9 @@ termux-x11 :0 &
 
 # 3. balik ke sesi 1 login ubuntu
 proot-distro login ubuntu --shared-tmp
-export DISPLAY=:0
-‎export LIBGL_ALWAYS_SOFTWARE=1
-‎export MESA_LOADER_DRIVER_OVERRIDE=swrast
+echo "export DISPLAY=:0" >> ~/.bashrc
+echo "export LIBGL_ALWAYS_SOFTWARE=1" >> ~/.bashrc
+echo "export MESA_LOADER_DRIVER_OVERRIDE=swrast" >> ~/.bashrc
 
 # 4. mematikan termux x11
 pkill -f termux-x11
